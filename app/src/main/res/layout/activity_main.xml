@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#058FFD"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#058FFD"
+            app:srcCompat="@mipmap/utec" />
+
+        <TextView
+            android:id="@+id/txtIntegrante01"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:autoText="false"
+            android:background="#058FFD"
+            android:text="INTEGRANTES DE GRUPO                                   CARNET:"
+            android:textColor="#171719"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtIntegrante1"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:autoText="false"
+            android:background="#058FFD"
+            android:text="CRISTIAN RAFAEL GARCIA                                  25-5076-2016"
+            android:textColor="#171719"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtIntegrante2"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:background="#058FFD"
+            android:text="AURELIANO MARTINEZ                                        25-6286-2014"
+            android:textColor="#171719"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtIntegrante3"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:background="#058FFD"
+            android:text="ANGEL ANTONIO DERAS PANIAGUA                  25-0421-2017"
+            android:textColor="#171719"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/txtIntegrante4"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:background="#058FFD"
+            android:text="SUSANA ABIGAHIL MARTINEZ SANABRIA        25-0820-2017"
+            android:textColor="#171719"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:drawableTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAcceder"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#593A91"
+            android:text="ACCEDER"
+            android:textSize="24sp"
+            app:drawableTint="#FFFFFF" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

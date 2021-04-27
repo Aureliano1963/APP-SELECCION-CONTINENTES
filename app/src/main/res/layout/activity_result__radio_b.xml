@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#058FFD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/continenteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#058FFD"
+        android:gravity="center"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/outputList"
+        android:layout_width="fill_parent"
+        android:layout_height="321dp"
+        android:background="#058FFD" />
+
+    <TextView
+        android:id="@+id/tipoVistatext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#058FFD"
+        android:gravity="center"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/lagosRiosVolcanesList"
+        android:layout_width="fill_parent"
+        android:layout_height="188dp"
+        android:background="#058FFD"></ListView>
+
+    <Button
+        android:id="@+id/buttonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#593A91"
+        android:text="SIGUIENTE"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#593A91"
+        android:text="REGRESAR"
+        android:textStyle="bold" />
+</LinearLayout>
